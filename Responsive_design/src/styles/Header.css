@@ -1,0 +1,58 @@
+/*
+  1. Estilos relacionados con posicionamiento
+  2. Modelo de caja
+  3. Tipografía
+  4. Estilos relacionados con temas visuales
+  5. Miselanios u otros
+*/
+
+:root{
+    --bitcon-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black:#201e1c;
+    --black:#282623;
+    --grey: #bababa;
+    --off-white:#FAF8F7;
+    --just-white:#fff;
+}
+  
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', 'sans-serif';
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-width: 32rem;
+    height: 34.4rem;
+    text-align: center;
+}
+
+header img{
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
+    align-self: center;
+}
+
+.header--title-container{
+    width: 90%;
+    min-width: 28rem;
+    max-width: 90rem;
+    height: 21.8rem;
+    margin-top: 4rem;
+    text-align: center;
+    align-self: center;
+}
