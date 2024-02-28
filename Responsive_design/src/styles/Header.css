@@ -38,6 +38,7 @@ header {
     min-width: 32rem;
     height: 34.4rem;
     text-align: center;
+    background: linear-gradient(207.8deg,#201E1C 16.69%, #f7931a 100%);
 }
 
 header img{
@@ -55,4 +56,47 @@ header img{
     margin-top: 4rem;
     text-align: center;
     align-self: center;
+}
+
+.header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.header--title-container p{
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
+
+.header--title-container .header--button{
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 28rem;
+    display: block;
+    margin-top: 3.5rem;
+    padding: 1.5rem;
+    width: 22.9rem;
+    height: 4.8rem;
+    background-color: var(--off-white);
+    /*Sombras*/
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+    border: none;   
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header--button span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/down-arrow.svg');
 }
