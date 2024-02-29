@@ -70,7 +70,35 @@ const Main = () => {
                         </div>
                     </section>
                 </section>
-                <section> Sección 2</section>
+                <section className="main-product-detail"> 
+                    <span className="product-detail--batata-logo"></span>
+                    <div className="product-detail--title">
+                        <h2>Creamos un producto sin comparación</h2>
+                        <p>Confiable y diseñado para su uso diario</p>
+                    </div>
+                    <section className="product-carts--container">
+                        <article className="product-detail--cart">
+                            <span className="clock"></span>
+                            <p className="product--cart-title">Tiempo real</p>
+                            <p className="product--cart-body">Nuestra API toma información minuto a minuto sobre las tasas que más determinan el comportamietno</p>
+                        </article>
+                        <article className="product-detail--cart">
+                            <span className="look"></span>
+                            <p className="product--cart-title">No hay tasas escondidas</p>
+                            <p className="product--cart-body">Ni en la compra o al momento de exit, Babit siempre te muestra el costo real de lo que estas adquiriendo</p>
+                        </article>
+                        <article className="product-detail--cart">
+                            <span className="dolar"></span>
+                            <p className="product--cart-title">Compara monedas</p>
+                            <p className="product--cart-body">no más rumores, con Babtabit sabrás el valor real de cada moneda en el mercado actual</p>
+                        </article>
+                        <article className="product-detail--cart">
+                            <span className="confianza"></span>
+                            <p className="product--cart-title">Información confiable</p>
+                            <p className="product--cart-body">Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan</p>
+                        </article>
+                    </section>
+                </section>
                 <section> Sección 3</section>
                 <section> Sección 4</section>
             </main>
