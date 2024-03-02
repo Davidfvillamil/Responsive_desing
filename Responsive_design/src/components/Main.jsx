@@ -99,8 +99,44 @@ const Main = () => {
                         </article>
                     </section>
                 </section>
-                <section> Sección 3</section>
-                <section> Sección 4</section>
+                <section className="bitcoin-img-container">
+                    <h2>Conócelo hoy</h2>
+                </section>
+                <section id="planes" className="main-plans-container"> 
+                    <div className="plans--title">
+                        <h2>Escoge el plan que mejor se ajuste a ti</h2>
+                        <p>Cualquier plan te da acceso completo a nuestra plataforma</p>
+                    </div>
+                    <section className="plans-container--slider">
+                        <article className="plans-container--card">
+                            <p className="recomendado">Recomendado</p>
+                            <div className="plan-info-container">
+                                <h3 className="plan-card--title">Pago anual</h3>
+                                <p className="plan-card--price"><span>$</span> 99</p>
+                                <p className="plan-card--saving">* Ahora $ 129 comparado al plan mensual</p>
+                                <button className="plan-card--calltoaction">Escoger este <span></span></button>
+                            </div>
+                        </article>
+                        <article className="plans-container--card">
+                            <p className="recomendado">Recomendado</p>
+                            <div className="plan-info-container">
+                                <h3 className="plan-card--title">Pago anual</h3>
+                                <p className="plan-card--price"><span>$</span> 99</p>
+                                <p className="plan-card--saving">* Ahora $ 129 comparado al plan mensual</p>
+                                <button className="plan-card--calltoaction">Escoger este <span></span></button>
+                            </div>
+                        </article>
+                        <article className="plans-container--card">
+                            <p className="recomendado">Recomendado</p>
+                            <div className="plan-info-container">
+                                <h3 className="plan-card--title">Pago anual</h3>
+                                <p className="plan-card--price"><span>$</span> 99</p>
+                                <p className="plan-card--saving">* Ahora $ 129 comparado al plan mensual</p>
+                                <button className="plan-card--calltoaction">Escoger este <span></span></button>
+                            </div>
+                        </article>
+                    </section>
+                </section>
             </main>
         </>
     )
